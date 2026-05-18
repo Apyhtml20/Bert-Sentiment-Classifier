@@ -35,7 +35,7 @@ Modèle `bert_en_uncased_L-12_H-768_A-12` :
 - 768 dimensions cachées
 - 12 têtes d'attention multi-head
 
-### 2. BERT via HuggingFace + PyTorch
+### 2. BERT via HuggingFace + PyTorch ou bien Télecharger le model est utilisé localement
 
 ```python
 from transformers import BertTokenizer, BertModel
