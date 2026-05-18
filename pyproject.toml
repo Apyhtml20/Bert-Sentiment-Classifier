@@ -1,0 +1,14 @@
+[project]
+name = "nlp-sentimentsis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dataset>=2.0.0",
+    "datasets>=4.8.4",
+    "tensorflow==2.18.0",
+    "tensorflow-hub>=0.16.1",
+    "torch>=2.11.0",
+    "transformers>=5.6.2",
+]
